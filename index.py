@@ -18,3 +18,5 @@ stationTemps = minTemps.map(lambda x: (x[0], x[2]))
 stationTemps.collect()
 #minTemps = stationTemps.reduceByKey(lambda x, y: min(x,y))
 # minTemps.collect()
+
+#Now we are checking Pull
